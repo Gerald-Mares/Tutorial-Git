@@ -1,0 +1,25 @@
+
+public class Switch {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int zahl =10;
+		
+		if (zahl==10) {
+			System.out.println("jackpot");
+	}   if (zahl>= 1 && zahl<=5) {
+		    System.out.println("die zahl liegt zwischen 1 und 5");
+	}   if (zahl==0 ) {
+		    System.out.println("darf nicht Null sein");
+	}   if (zahl>10) {
+		    System.out.println("zu groß");
+	}   if (zahl>5 && zahl<=9) {
+		    System.out.println("die zahl liegt zwischen 6 und 9");
+		if (zahl<0) {
+			System.out.println("darf nicht sein");
+	}
+	}
+	}
+
+}
